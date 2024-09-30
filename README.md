@@ -1,112 +1,268 @@
-# React homework template
+========== HOME ==========
+.home__social-link
+https://www.instagram.com/
+https://dribbble.com/
+https://github.com/
 
-Цей проект був створений за допомогою
-[Create React App](https://github.com/facebook/create-react-app). Для знайомства
-і налаштування додаткових можливостей
-[звернися до документації](https://facebook.github.io/create-react-app/docs/getting-started).
+.home__name
+John Smith
 
-## Створення репозиторію за шаблоном
+.home__education
+Visual Designer
 
-Використовуй цей репозиторій організації GoIT як шаблон для створення репозиторію
-свого проєкта. Для цього натисни на кнопку `«Use this template»` і вибери опцію
-`«Create a new repository»`, як показано на зображенні.
+.home__description
+I'm creative designer based in New York, and I'm very passionate and dedicated to my work.
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+.home__scroll-name
+Scroll Down
 
-На наступному кроці відкриється сторінка створення нового репозиторію. Заповни поле
-його імені, переконайся що репозиторій публічний, після чого натисни кнопку
-`«Create repository from template»`.
+========== ABOUT ==========
+.section__title | .section__subtitle
+About Me
+My introduction
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+.about__title | .about__subtitle
+Experience
+8 Years Working
 
-Після того як репозиторій буде створено, необхідно перейти в налаштування
-створеного репозиторію на вкладку `Settings` > `Actions` > `General` як
-показано на зображенні.
+Completed
+48 + Projects
 
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+Support
+Online 24/7
 
-Проскроливши сторінку до самого кінця, у секції `«Workflow permissions»` вибери
-опцію `«Read and write permissions»` і постав галочку в чекбоксі. Це
-необхідно для автоматизації процесу деплою проєкту.
+.about__description
+Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
+========== SKILLS ==========	
+.section__title | .section__subtitle
+Skills
+My technical level
 
-Тепер у тебе є особистий репозиторій проекту, зі структурою файлів і папок
-репозиторію-шаблону. Далі працюй із ним як із будь-яким іншим особистим репозиторієм,
-клонуй його собі на комп'ютер, пиши код, роби комміти і відправляй їх на
-GitHub.
+.skills__title
+Frontend developer
+Backend Developer
 
-## Підготовка до роботи
+.skills__name | .skills__level
+HTML
+Basic
 
-1. Переконайся що на комп'ютері встановлено LTS-версія Node.js.
-   [Завантаж і встанови](https://nodejs.org/en/) її якщо необхідно.
-2. Встанови базові залежності проєкту командою `npm install`.
-3. Запусти режим розробки, виконавши команду `npm start`.
-4. Перейди в браузері за адресою [http://localhost:3000](http://localhost:3000).
-   Ця сторінка буде автоматично перезавантажуватися після збереження змін у файлах проєкту.
+CSS
+Advanced
 
-## Деплой
+JavaScript
+Intermediate
 
-Продакшн версія проєкту буде автоматично проходити лінтинг, збиратися і
-деплоїтися на GitHub Pages, у гілку `gh-pages`, щоразу, коли оновлюється
-гілка `main`. Наприклад, після прямого пушу або прийнятого пул-реквесту. Для цього
-необхідно у файлі `package.json` відредагувати поле `homepage`, замінивши
-`your_username` і `your_repo_name` на свої, і відправити зміни на GitHub.
+Bootstrap
+Intermediate
 
-```json
-"homepage": "https://your_username.github.io/your_repo_name/"
-```
+Git
+Intermediate
 
-Далі необхідно зайти в налаштування GitHub-репозиторію (`Settings` > `Pages`) і
-виставити роздачу продакшн-версії файлів із папки `/root` гілки `gh-pages`, якщо
-це не було зроблено автоматично.
+React
+Intermediate
 
-![GitHub Pages settings](./assets/repo-settings.png)
+PHP
+Intermediate
 
-### Статус деплоя
+Node Js
+Basic
 
-Статус деплою крайнього коміту відображається іконкою біля його ідентифікатора.
+Python
+Intermediate
 
-- **Жовтий колір** - виконується збірка і деплой проєкту.
-- **Зелений колір** - деплой завершився успішно.
-- **Червоний колір** - під час лінтингу, сборки або деплою сталася помилка.
+MySQL
+Intermediate
 
-Детальнішу інформацію про статус можна подивитися, клікнувши на іконку, і
-у вікні, що випадає, перейти за посиланням `Details`.
+Firebase
+Intermediate
 
-![Deployment status](./assets/deploy-status.png)
+========== SKILLS ==========	
+.section__title | .section__subtitle
+Qualification
+My personel journey
 
-### Жива сторінка
+.tabs__button
+Education
+Experience
 
-Через якийсь час, зазвичай кілька хвилин, живу сторінку можна буде подивитися
-за адресою, вказаною у відредагованій властивості `homepage`. Наприклад, ось
-посилання на живу версію для цього репозиторію
-[https://goitacademy.github.io/react-homework-template](https://goitacademy.github.io/react-homework-template).
+========== SERVICES ==========
+.section__title | .section__subtitle
+Services
+What i offer
 
-Якщо відкривається порожня сторінка, переконайся, що у вкладці `Console` немає помилок
-пов'язаних із неправильними шляхами до CSS і JS файлів проєкту (**404**). Швидше 
-за все у тебе неправильне значення властивості `homepage` у файлі `package.json`.
+.services__title
+Product <br> Designer
 
-### Маршрутизація
+Ui/Ux <br> Designer
 
-Якщо додаток використовує бібліотеку `react-router-dom` для маршрутизації,
-необхідно додатково налаштувати компонент `<BrowserRouter>`, передавши у пропе
-`basename` точну назву твого репозиторію. Слеш на початку рядка обов'язковий.
+Visual <br> Designer
 
-```jsx
-<BrowserRouter basename="/your_repo_name">
-  <App />
-</BrowserRouter>
-```
+.services__modal-description
+Service with more than 3 years of experience.Providing quality work to clients and companies.
 
-## Як це працює
+.services__modal-info
+I develop the user interface.
 
-![How it works](./assets/how-it-works.png)
+Web page development.
 
-1. Після кожного пушу в гілку `main` GitHub-репозиторія, запускається спеціальний
-   скрипт (GitHub Action) з файла `.github/workflows/deploy.yml`.
-2. Усі файли репозиторію копіюються на сервер, де проект ініціалізується і
-   проходить лінтинг і збірку перед деплоєм.
-3. Якщо всі кроки пройшли успішно, зібрана продакшн-версія файлів проєкту
-   відправляється в гілку `gh-pages`. В іншому випадку, в лозі виконання
-   скрипта буде вказано в чому проблема.
+I create ux element interactions.
+
+I position your company brand.
+
+Design and mockups of products for companies.
+
+
+========== WORK  ==========
+.section__subtitle | .section__title
+My Portfolio
+Recent Works
+
+.work__item
+All
+Web
+App
+Design
+
+.work__title
+Web design
+
+App movil
+
+Brand design
+
+App movil
+
+Web design
+
+========== TESTIMONIALS ==========
+.section__subtitle | .section__title
+My clients say
+Testimonial
+
+.testimonial__name
+Jhon Doe
+
+Harry Clinton
+
+Sara Cill
+
+.testimonial__description
+A really good job, all aspects of the project were followed step by step and with good results.
+
+
+========== CONTACT ==========
+.section__subtitle | .section__title
+Get in touch
+Contact Me
+
+.contact__title
+Talk to me
+
+Write me your project
+
+.contact__card-title | .contact__card-data
+Email
+user@gmail.com
+
+Whatsapp
+999-888-777
+
+Messenger
+user.fb123
+
+.contact__button
+mailto:examplemail@gmail.com.com
+
+https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!
+
+https://m.me/crypticalcoder
+
+========== FOOTER ==========
+.footer__title
+Smith
+
+.footer__link
+About
+
+Projects
+
+Testimonials
+
+.footer__social-link
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+
+.footer__copy
+&#169; Crypticalcoder. All rigths reserved
+
+
+========== TESTIMONIALS DATA ==========
+Data = [
+  {
+    id: 1,
+    image: Image1,
+    title: "Jhon Doe",
+    description:
+      "A really good job, all aspects of the project were followed step by step and with good results.",
+  },
+  {
+    id: 2,
+    image: Image2,
+    title: "Harry Clinton",
+    description:
+      "A really good job, all aspects of the project were followed step by step and with good results.",
+  },
+  {
+    id: 3,
+    image: Image3,
+    title: "Sara Cill",
+    description:
+      "A really good job, all aspects of the project were followed step by step and with good results.",
+  },
+];
+
+
+========== PORTFOLIO DATA ==========
+projectsData = [
+  {
+    id: 1,
+    image: Work1,
+    title: "Web design",
+    category: "web",
+  },
+  {
+    id: 2,
+    image: Work2,
+    title: "App movil",
+    category: "app",
+  },
+  {
+    id: 3,
+    image: Work3,
+    title: "Brand design",
+    category: "design",
+  },
+  {
+    id: 4,
+    image: Work4,
+    title: "App movil",
+    category: "app",
+  },
+  {
+    id: 5,
+    image: Work5,
+    title: "Web design",
+    category: "web",
+  },
+];
+
+
+
+
+
+
+
+
+
